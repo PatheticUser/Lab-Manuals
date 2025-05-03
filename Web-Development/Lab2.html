@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Neuronix Labs - Innovating AI solutions for a better future.">
+  <title>Home | Neuronix Labs</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Include the Lottie library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+  <style>
+    .team-member {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .team-member:hover {
+      transform: scale(1.05);
+    }
+
+    .team-member {
+      width: 100%;
+      max-width: 300px;
+      /* Adjust as needed */
+      height: 350px;
+      /* Ensures all cards are the same height */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .team-member img {
+      width: 100%;
+      height: 250px;
+      /* Ensures uniform image height */
+      object-fit: cover;
+      /* Ensures images cover the area without stretching */
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Lottie animation container -->
+  <div class="loading-container">
+    <div id="lottie-animation"></div>
+  </div>
+
+  <div class="container">
+    <!-- Sticky Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Neuronix Labs</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/articles.html">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <section id="hero">
+      <h2>Innovating the Future with Artificial Intelligence</h2>
+    </section>
+
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <p>We’ve been recognized for our impactful contributions to AI technology:</p>
+      <ul>
+        <li>Awarded Best AI Startup of 2024 for our innovative solutions.</li>
+        <li>Developed the first AI-driven disaster response system in the region, improving the speed and accuracy
+          of
+          emergency responses.</li>
+        <li>Partnered with over 50 companies to integrate AI into their workflows, driving efficiency and growth
+          across
+          industries.</li>
+        <li>Collaborated with top research institutions to develop cutting-edge machine learning models for
+          healthcare
+          applications.</li>
+        <li>Launched a suite of AI tools that reduced operational costs for our clients by up to 40% while enhancing
+          their data-driven decision-making capabilities.</li>
+      </ul>
+    </section>
+
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Meet Our Team</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card team-member text-center">
+            <img src="images/rameez.jpg" class="card-img-top" alt="Muhammad Rameez">
+            <div class="card-body">
+              <h5 class="card-title">Muhammad Rameez</h5>
+              <p class="card-text">CEO | CTO</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card team-member text-center">
+            <img src="images/ayesha.jpg" class="card-img-top" alt="Ayesha Khan">
+            <div class="card-body">
+              <h5 class="card-title">Ayesha Khan</h5>
+              <p class="card-text">Marketing Head</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card team-member text-center">
+            <img src="images/ali.jpg" class="card-img-top" alt="Ali Hassan">
+            <div class="card-body">
+              <h5 class="card-title">Ali Hassan</h5>
+              <p class="card-text">Lead Developer</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Founded in 2020, Neuronix Labs has quickly become a leader in AI research, and we are continuously
+        expanding
+        our reach. We partner with industries like healthcare, finance, manufacturing, and logistics, bringing AI
+        technologies that drive profitability and create value for society. At Neuronix Labs, we specialize in creating
+        AI-driven innovations that address real-world challenges. Our
+        team
+        of engineers, data scientists, and AI experts work tirelessly to push the boundaries of what's possible.
+        From
+        revolutionizing business operations to improving everyday life, our mission is to build smarter, more
+        efficient,
+        and sustainable solutions.</p>
+    </section>
+
+    <footer>
+      <p>© 2025 Neuronix Labs. All rights reserved.</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
